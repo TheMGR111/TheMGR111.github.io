@@ -2,7 +2,7 @@
 
 Single-page personal site for [Martin Gabriel Rodriguez](https://www.linkedin.com/in/martin-rodriguez22/), built as static HTML/CSS/JS for GitHub Pages.
 
-**Live URL (after enabling Pages):** https://themgr111.github.io/personalwebsite/
+**Live URL (after enabling Pages):** https://themgr111.github.io/PersonalWebsite/
 
 ## Contents
 
@@ -18,7 +18,7 @@ Single-page personal site for [Martin Gabriel Rodriguez](https://www.linkedin.co
 1. Open the repo on GitHub: **Settings → Pages**
 2. Under **Build and deployment**, set **Source** to **Deploy from a branch**
 3. Choose branch **`main`**, folder **`/` (root)**, then **Save**
-4. Wait a minute, then visit https://themgr111.github.io/personalwebsite/
+4. Wait a minute, then visit https://themgr111.github.io/PersonalWebsite/
 
 If you merge via pull request, Pages will serve whatever is on `main` after merge.
 
