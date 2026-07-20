@@ -18,7 +18,7 @@ Single-page personal site for [Martin Gabriel Rodriguez](https://www.linkedin.co
 1. Open the repo on GitHub: **Settings → Pages**
 2. Under **Build and deployment**, set **Source** to **Deploy from a branch**
 3. Choose branch **`main`**, folder **`/` (root)**, then **Save**
-4. Wait a minute, then visit https://themgr111.github.io/PersonalWebsite/
+4. Wait a minute, then visit [https://themgr111.github.io/PersonalWebsite/](https://themgr111.github.io/)
 
 If you merge via pull request, Pages will serve whatever is on `main` after merge.
 
