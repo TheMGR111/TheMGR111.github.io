@@ -2,7 +2,7 @@
 
 Single-page personal site for [Martin Gabriel Rodriguez](https://www.linkedin.com/in/martin-rodriguez22/), built as static HTML/CSS/JS for GitHub Pages.
 
-**Live URL (after enabling Pages):** https://themgr111.github.io/PersonalWebsite/
+**Live URL (after enabling Pages):** https://themgr111.github.io/
 
 ## Contents
 
