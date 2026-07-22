@@ -5,9 +5,23 @@
   const navLinks = document.querySelectorAll(".nav-menu a");
   const sections = document.querySelectorAll("main section[id]");
   const year = document.getElementById("year");
+  const portrait = document.querySelector(".hero-portrait");
+  const portraitImg = document.querySelector(".hero-portrait img");
 
   if (year) {
     year.textContent = String(new Date().getFullYear());
+  }
+
+  if (portrait && portraitImg) {
+    const hidePortrait = () => {
+      portrait.hidden = true;
+    };
+
+    if (portraitImg.complete) {
+      if (portraitImg.naturalWidth === 0) hidePortrait();
+    } else {
+      portraitImg.addEventListener("error", hidePortrait, { once: true });
+    }
   }
 
   const setHeaderState = () => {
@@ -83,8 +97,12 @@
 
   setHeaderState();
   updateActiveNav();
-  window.addEventListener("scroll", () => {
-    setHeaderState();
-    updateActiveNav();
-  }, { passive: true });
+  window.addEventListener(
+    "scroll",
+    () => {
+      setHeaderState();
+      updateActiveNav();
+    },
+    { passive: true }
+  );
 })();

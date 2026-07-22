@@ -38,6 +38,7 @@
           <li><a href="#projects">Projects</a></li>
           <li><a href="#skills">Skills</a></li>
           <li><a href="#education">Education</a></li>
+          <li><a href="#interests">Interests</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
@@ -46,49 +47,67 @@
     <main id="main">
       <section class="hero" aria-labelledby="hero-name">
         <div class="hero-atmosphere" aria-hidden="true"></div>
-        <div class="hero-inner">
-          <p class="hero-kicker">Austin, TX</p>
-          <h1 id="hero-name" class="hero-name">Martin Gabriel Rodriguez</h1>
-          <p class="hero-role">
-            Consultant at CGI · Co-Founder at Gatherly · UT Austin Alum
-          </p>
-          <p class="hero-lede">
-            I work at the intersection of business strategy and technical
-            implementation—building products, data systems, and financial tools
-            that people actually want to use.
-          </p>
-          <div class="hero-actions">
-            <a class="btn btn-primary" href="#projects">View projects</a>
-            <a class="btn btn-secondary" href="#contact">Get in touch</a>
+        <div class="hero-layout">
+          <div class="hero-copy">
+            <p class="hero-kicker">Austin, TX</p>
+            <h1 id="hero-name" class="hero-name">Martin Gabriel Rodriguez</h1>
+            <p class="hero-role">
+              Consultant at CGI · Co-Founder at Gatherly · UT Austin Alum
+            </p>
+            <p class="hero-lede">
+              I work at the intersection of business strategy and technical
+              implementation—building products, data systems, and financial tools
+              that people actually want to use.
+            </p>
+            <div class="hero-actions">
+              <a
+                class="btn btn-primary"
+                href="assets/Martin_Rodriguez_Resume_Summer_2026.pdf"
+                download
+                >Download resume</a
+              >
+              <a class="btn btn-secondary" href="#contact">Get in touch</a>
+            </div>
+            <ul class="hero-links" aria-label="Social links">
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/martin-rodriguez22/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >LinkedIn</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://github.com/TheMGR111"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >GitHub</a
+                >
+              </li>
+              <li>
+                <a href="mailto:themartingrodriguez@gmail.com">Email</a>
+              </li>
+              <li>
+                <a href="#projects">Projects</a>
+              </li>
+            </ul>
           </div>
-          <ul class="hero-links" aria-label="Social links">
-            <li>
-              <a
-                href="https://www.linkedin.com/in/martin-rodriguez22/"
-                target="_blank"
-                rel="noopener noreferrer"
-                >LinkedIn</a
-              >
-            </li>
-            <li>
-              <a
-                href="https://github.com/TheMGR111"
-                target="_blank"
-                rel="noopener noreferrer"
-                >GitHub</a
-              >
-            </li>
-            <li>
-              <a href="mailto:themartingrodriguez@gmail.com">Email</a>
-            </li>
-          </ul>
+          <figure class="hero-portrait">
+            <img
+              src="assets/martin-rodriguez.jpg"
+              alt="Martin Gabriel Rodriguez in a black blazer and UT Texas graduation stole"
+              width="720"
+              height="960"
+            />
+          </figure>
         </div>
       </section>
 
-      <section class="section" id="about" data-reveal>
+      <section class="section section-about" id="about" data-reveal>
         <div class="section-inner">
           <p class="section-label">About</p>
-          <h2 class="section-title">Strategy meets systems.</h2>
+          <h2 class="section-title" data-reveal-title>Strategy meets systems.</h2>
           <div class="about-grid">
             <p class="about-lead">
               I’m a graduate of the University of Texas at Austin’s McCombs
@@ -108,10 +127,12 @@
         </div>
       </section>
 
-      <section class="section section-alt" id="experience" data-reveal>
+      <section class="section section-experience" id="experience" data-reveal>
         <div class="section-inner">
           <p class="section-label">Experience</p>
-          <h2 class="section-title">Where I’ve built and led.</h2>
+          <h2 class="section-title" data-reveal-title>
+            Where I’ve built and led.
+          </h2>
 
           <ol class="timeline">
             <li class="timeline-item">
@@ -120,11 +141,17 @@
                 <span class="timeline-org">CGI</span>
                 <span class="timeline-date">Jun 2026 – Present · Austin, TX</span>
               </div>
-              <p>
-                Delivering IT and business consulting solutions at the
-                intersection of strategy and technical implementation for clients
-                in Austin.
-              </p>
+              <ul class="bullet-list">
+                <li>
+                  Delivering IT and business consulting solutions at the
+                  intersection of strategy and technical implementation for
+                  clients in Austin.
+                </li>
+                <li>
+                  Translating business requirements into actionable systems,
+                  workflows, and data-informed recommendations.
+                </li>
+              </ul>
             </li>
 
             <li class="timeline-item">
@@ -220,7 +247,9 @@
                 <span class="timeline-role"
                   >VC Deal-Sourcing &amp; Branding Strategy Extern</span
                 >
-                <span class="timeline-org">Extern — IgniteXL &amp; Beats by Dre</span>
+                <span class="timeline-org"
+                  >Extern — IgniteXL &amp; Beats by Dre</span
+                >
                 <span class="timeline-date">Jun 2024 – Aug 2024 · Remote</span>
               </div>
               <ul class="bullet-list">
@@ -238,16 +267,25 @@
         </div>
       </section>
 
-      <section class="section" id="projects" data-reveal>
+      <section class="section section-projects" id="projects" data-reveal>
         <div class="section-inner">
           <p class="section-label">Projects</p>
-          <h2 class="section-title">Selected builds.</h2>
+          <h2 class="section-title" data-reveal-title>Selected builds.</h2>
 
           <div class="project-list">
             <article class="project">
               <div class="project-header">
-                <h3>DCluter</h3>
-                <p class="project-meta">CS329E · Spring 2026 · SwiftUI / Firebase</p>
+                <h3>
+                  <a
+                    href="https://github.com/TheMGR111/DCluter"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >DCluter</a
+                  >
+                </h3>
+                <p class="project-meta">
+                  CS329E · Spring 2026 · SwiftUI / Firebase
+                </p>
               </div>
               <p>
                 An iOS camera-roll cleaning app that groups media by month and
@@ -256,11 +294,25 @@
                 processing, and Firebase Auth / Firestore for accounts and
                 profiles.
               </p>
+              <a
+                class="project-link"
+                href="https://github.com/TheMGR111/DCluter"
+                target="_blank"
+                rel="noopener noreferrer"
+                >View on GitHub</a
+              >
             </article>
 
             <article class="project">
               <div class="project-header">
-                <h3>Money Printer</h3>
+                <h3>
+                  <a
+                    href="https://github.com/TheMGR111/aiPoweredInvestments"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Money Printer</a
+                  >
+                </h3>
                 <p class="project-meta">
                   FIN 372T · Spring 2026 · Claude API / Quant Research
                 </p>
@@ -272,11 +324,25 @@
                 statistical arbitrage strategies with a Streamlit research
                 dashboard.
               </p>
+              <a
+                class="project-link"
+                href="https://github.com/TheMGR111/aiPoweredInvestments"
+                target="_blank"
+                rel="noopener noreferrer"
+                >View on GitHub</a
+              >
             </article>
 
             <article class="project">
               <div class="project-header">
-                <h3>Bevo’s Bookstore</h3>
+                <h3>
+                  <a
+                    href="https://github.com/TheMGR111/MIS-333K-Final-Project"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Bevo’s Bookstore</a
+                  >
+                </h3>
                 <p class="project-meta">
                   MIS 333K · Fall 2025 · ASP.NET MVC / Azure
                 </p>
@@ -287,11 +353,25 @@
                 Collaborated in a 4-person team via GitHub with Azure hosting and
                 cloud SQL deployment.
               </p>
+              <a
+                class="project-link"
+                href="https://github.com/TheMGR111/MIS-333K-Final-Project"
+                target="_blank"
+                rel="noopener noreferrer"
+                >View on GitHub</a
+              >
             </article>
 
-            <article class="project project-featured">
+            <article class="project">
               <div class="project-header">
-                <h3>VisionRx</h3>
+                <h3>
+                  <a
+                    href="https://www.linkedin.com/posts/david-salinas_utaustin-hackathon-humancentereddesign-activity-7448111007245246465-RPgc"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >VisionRx</a
+                  >
+                </h3>
                 <p class="project-meta">
                   Claude Builder’s Club Hackathon · Most Human-Centered Design
                 </p>
@@ -303,15 +383,22 @@
                 human-centered design at UT Austin’s Claude Builder’s Club
                 Hackathon.
               </p>
+              <a
+                class="project-link"
+                href="https://www.linkedin.com/posts/david-salinas_utaustin-hackathon-humancentereddesign-activity-7448111007245246465-RPgc"
+                target="_blank"
+                rel="noopener noreferrer"
+                >View announcement</a
+              >
             </article>
           </div>
         </div>
       </section>
 
-      <section class="section section-alt" id="skills" data-reveal>
+      <section class="section section-skills" id="skills" data-reveal>
         <div class="section-inner">
           <p class="section-label">Skills</p>
-          <h2 class="section-title">Tools I reach for.</h2>
+          <h2 class="section-title" data-reveal-title>Tools I reach for.</h2>
 
           <div class="skills-grid">
             <div class="skill-group">
@@ -339,10 +426,10 @@
         </div>
       </section>
 
-      <section class="section" id="education" data-reveal>
+      <section class="section section-education" id="education" data-reveal>
         <div class="section-inner">
           <p class="section-label">Education</p>
-          <h2 class="section-title">Foundation.</h2>
+          <h2 class="section-title" data-reveal-title>Foundation.</h2>
 
           <div class="edu-block">
             <h3>The University of Texas at Austin</h3>
@@ -371,10 +458,32 @@
         </div>
       </section>
 
+      <section class="section section-interests" id="interests" data-reveal>
+        <div class="section-inner">
+          <p class="section-label">Interests</p>
+          <h2 class="section-title" data-reveal-title>Outside the work.</h2>
+          <p class="interests-lede">
+            A few things that keep me curious when I’m not shipping product or
+            models.
+          </p>
+          <ul class="interest-list">
+            <li>Product design &amp; user journeys</li>
+            <li>Business automation</li>
+            <li>Solo traveling</li>
+            <li>Eagle Scout traditions</li>
+            <li>Body recomp &amp; training</li>
+            <li>Siestas</li>
+            <li>Sak yants</li>
+          </ul>
+        </div>
+      </section>
+
       <section class="section section-contact" id="contact" data-reveal>
         <div class="section-inner">
           <p class="section-label">Contact</p>
-          <h2 class="section-title">Let’s build something useful.</h2>
+          <h2 class="section-title" data-reveal-title>
+            Let’s build something useful.
+          </h2>
           <p class="contact-lede">
             Open to conversations about consulting, product, and data-driven
             software. Reach out anytime.
