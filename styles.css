@@ -643,6 +643,13 @@ a:hover {
   color: var(--muted);
 }
 
+.project-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem 1.25rem;
+  margin-top: 0.85rem;
+}
+
 .project-link {
   display: inline-block;
   margin-top: 0.85rem;
@@ -651,6 +658,10 @@ a:hover {
   text-decoration: none;
   color: var(--accent-deep);
   border-bottom: 1px solid rgba(15, 118, 110, 0.35);
+}
+
+.project-links .project-link {
+  margin-top: 0;
 }
 
 .project-link:hover {
