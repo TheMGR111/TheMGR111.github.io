@@ -11,7 +11,7 @@ Single-page personal site for [Martin Gabriel Rodriguez](https://www.linkedin.co
 | `index.html` | Page content (About, Experience, Projects, Skills, Education, Contact) |
 | `styles.css` | Layout and design system |
 | `script.js` | Mobile nav, active section highlight, scroll reveal |
-| `assets/Martin_Rodriguez_Resume_Summer_2026.pdf` | Downloadable resume |
+| `assets/Martin_Rodriguez_Summer_2026.pdf` | Downloadable resume |
 
 ## Enable GitHub Pages
 
