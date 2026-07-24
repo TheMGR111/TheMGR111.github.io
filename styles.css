@@ -650,6 +650,18 @@ a:hover {
   border-bottom-color: var(--accent);
 }
 
+.projects-note {
+  margin: 2rem 0 0;
+  max-width: 46rem;
+  font-size: 0.95rem;
+  color: var(--muted);
+}
+
+.projects-note strong {
+  color: var(--ink-soft);
+  font-weight: 600;
+}
+
 .project-featured .project-meta::after {
   content: " · Featured";
   color: var(--accent);
